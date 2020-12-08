@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 该菜单项位于Toolbar中 -->
+    <item
+        android:id="@+id/backup"
+        android:title="Backup"
+        android:icon="@drawable/abc_vector_test"
+        app:showAsAction="always"/>
+
+    <!-- 如果Toolbar中存在空间，该菜单项位于Toolbar中；否则，位于菜单中 -->
+    <item
+        android:id="@+id/setting"
+        android:title="setting"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"/>
+
+    <!-- 该菜单项位于菜单中 -->
+    <item
+        android:id="@+id/play"
+        android:title="Play"
+        android:icon="@mipmap/ic_launcher_round"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/stop"
+        android:title="Stop"
+        android:icon="@mipmap/ic_launcher_round"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/pause"
+        android:title="Pause"
+        android:icon="@mipmap/ic_launcher_round"
+        app:showAsAction="never"/>
+
+</menu>
